@@ -2,13 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Haarish's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Haarish's IPL Predictor</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Welcome to Haarish Khan's Portfolio</h1>
-  <p>This site is under construction. Stay tuned!</p>
+  <div class="app">
+    <h1>Haarish's IPL Playoff Predictor</h1>
+    <label for="team-select">Select your team:</label>
+    <select id="team-select">
+      <option value="">--Choose--</option>
+      <option value="CSK">Chennai Super Kings</option>
+      <option value="MI">Mumbai Indians</option>
+      <option value="RCB">Royal Challengers Bangalore</option>
+      <option value="KKR">Kolkata Knight Riders</option>
+      <option value="DC">Delhi Capitals</option>
+      <option value="RR">Rajasthan Royals</option>
+      <option value="PBKS">Punjab Kings</option>
+      <option value="SRH">Sunrisers Hyderabad</option>
+      <option value="GT">Gujarat Titans</option>
+      <option value="LSG">Lucknow Super Giants</option>
+    </select>
+    <div id="result"></div>
+    <img id="captain-img" src="" alt="" />
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
