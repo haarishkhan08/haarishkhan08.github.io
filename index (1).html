@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haarish’s Playoff Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>Haarish’s Playoff Predictor</h1>
+    <label for="team-select">Select Your Team:</label>
+    <select id="team-select" onchange="updateTheme()">
+      <option value="">--Choose a Team--</option>
+      <option value="CSK">Chennai Super Kings</option>
+      <option value="MI">Mumbai Indians</option>
+      <option value="RCB">Royal Challengers Bangalore</option>
+      <option value="DC">Delhi Capitals</option>
+      <option value="RR">Rajasthan Royals</option>
+      <option value="KKR">Kolkata Knight Riders</option>
+      <option value="PBKS">Punjab Kings</option>
+      <option value="SRH">Sunrisers Hyderabad</option>
+      <option value="GT">Gujarat Titans</option>
+      <option value="LSG">Lucknow Super Giants</option>
+    </select>
+    <div id="team-info">
+      <h2>Playoff Chances:</h2>
+      <p id="playoff-text">Select a team to view their chances...</p>
+      <img id="captain-img" src="" alt="" style="display:none;" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

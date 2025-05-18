@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+select {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#captain-img {
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Team themes */
+body.CSK { background-color: #f4d03f; }
+body.MI { background-color: #045093; color: white; }
+body.RCB { background-color: #da1818; color: white; }
+body.DC { background-color: #17449b; color: white; }
+body.RR { background-color: #e8a8f4; }
+body.KKR { background-color: #3b0a45; color: white; }
+body.PBKS { background-color: #e01b1b; color: white; }
+body.SRH { background-color: #fb6a02; color: white; }
+body.GT { background-color: #0f1e2e; color: white; }
+body.LSG { background-color: #8deaff; }
