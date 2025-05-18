@@ -1,3 +1,1 @@
-function sayHello() {
-  alert("Hello from Haarish!");
-}
+console.log("Welcome to Haarish's site!");
