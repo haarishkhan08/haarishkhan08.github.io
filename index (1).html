@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haarish's IPL Playoff Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container" id="app">
+        <h1>Haarish's IPL Playoff Predictor</h1>
+        <select id="team-select">
+            <option value="" disabled selected>Select Your Team</option>
+            <option value="CSK">Chennai Super Kings</option>
+            <option value="RCB">Royal Challengers Bangalore</option>
+            <option value="MI">Mumbai Indians</option>
+            <option value="GT">Gujarat Titans</option>
+            <option value="LSG">Lucknow Super Giants</option>
+            <option value="DC">Delhi Capitals</option>
+            <option value="SRH">Sunrisers Hyderabad</option>
+            <option value="RR">Rajasthan Royals</option>
+            <option value="KKR">Kolkata Knight Riders</option>
+            <option value="PBKS">Punjab Kings</option>
+        </select>
+        <div id="team-info">
+            <img id="captain-img" src="" alt="Captain Image" style="display: none;" />
+            <p id="playoff-chance"></p>
+            <p id="nrr-info"></p>
+            <p id="weather-info"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
